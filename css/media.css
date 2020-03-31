@@ -1,0 +1,429 @@
+/*  for Phone(xs) Screens  */
+@media(max-width:767px){
+  /* .container{
+    width: 570px;
+  } */
+  .hidden-xs{
+    display: none;
+  }
+  .visible-xs{
+    display: block !important;
+  }
+    /* first section */
+  .first .caption h2{
+    font-size: 3em !important;
+  }
+  .first .caption p:last-of-type{
+    width: auto !important;
+  }
+  /* About */
+  .about .img {
+      width: 100% !important;
+
+  }
+  .about .right {
+    width: 100% !important;
+}
+.about .img img:first-of-type{
+  width: 100%;
+}
+.about .img img:last-of-type{
+      left: 191px !important;
+}
+
+/*  Third Section */
+
+.third .left{
+  width: 100% !important;
+}
+.third .right{
+  width: 100% !important;
+}
+.third .right .part2,.third .right .part1{
+  width: 100% !important;
+}
+
+/* CLASSES */
+.classes .small{
+  margin-top: 600px ;
+}
+/* Trainer */
+.expert{
+  height: auto !important;
+  padding:30px 0 96px !important;
+
+}
+.expert .trainer{
+  width: 80% !important;
+  margin: auto;
+  text-align: center;
+  margin-left: 54px;
+  margin-bottom: 34px;
+
+
+}
+.expert .trainer .title {
+    top: 204px !important;
+    width: 64% !important;
+    left: 70px !important;
+    z-index: 9;
+}
+
+/* get Training */
+.get .left,.get .right{
+  width: 100% !important;
+}
+.get .left{
+  margin-bottom: 79px;
+}
+.get .right{
+  margin: auto;
+text-align: center;
+}
+/* MEMBERSHIP*/
+.MEMBERSHIP .plans{
+    width: 98% !important;
+    margin-bottom: 54px;
+
+  }
+  /*Register Now*/
+  .register .left{
+    width: 100% !important;
+    margin-bottom: 29px;
+    height: auto !important;
+  }
+  .register .right {
+      width: 100% !important;
+          height: 741px !important;
+
+  }
+  .register .left .form{
+    width: 100% !important
+  }
+  .register .left .form input{
+    width: 100%;
+  }
+  /*LATEST BLOG*/
+    .part{
+      width: 97% !important;
+    }
+    /*NEW MEMBER*/
+      .NEW .right,.NEW .left{
+        width: 100% !important;
+      }
+      /* Footer */
+
+      .footer .row {
+    width: 100% !important;
+      }
+      .footer .imge_footer .right,.footer .imge_footer .left {
+        width: 100% !important;
+        text-align: center;
+    }
+    .footer .imge_footer .left h2{
+      font-size: 18px !important;
+      margin-bottom: 0px !important;
+      margin-top: 17px !important;
+    }
+        .footer .imge_footer .right .form{
+      position: relative;
+      top: 13px;
+    }
+    .footer .imge_footer .right .form input {
+    margin-top: -21px !important;
+    margin-left: -24px !important;
+    }
+  .footer .imge_footer .right .form .icon{
+      top: -14px !important;
+    right: 20% !important;
+  }
+  .footer .imge_footer {
+    width: 84% !important;
+    height: 165px !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.footer .final .info:first-of-type {
+    width: 100% !important;
+}
+.footer .final .info {
+    width: 50.5% !important;
+}
+.footer .final .info:last-of-type {
+  margin-top: 4px;
+}
+.footer .final .info:last-of-type ul li{
+      width: 18% !important;
+      height: 18% !important;
+      margin: 2px;
+}
+.footer .final .info:last-of-type ul li svg{
+  font-size: 19px !important;
+}
+
+.footer .final .info p {
+    font-size: 13px !important;
+  }
+.footer .final .info .pargraph{
+    margin-top: 7px;
+}
+.footer .final .info .privacy {
+    margin-top: -30px !important;
+}
+.footer{
+    height:628px !important;
+  }
+}
+
+/*  for tablet(sm) Screens  */
+@media(min-width:768px){
+  @media(max-width:991px){
+    .container{
+      width: 750px;
+    }
+    .hidden-sm{
+      display: none;
+    }
+    .visible-sm{
+      display: block !important;
+    }
+    /* First Section */
+    .first nav ul{
+      position: relative;
+      top: 7px;
+      width: 86% !important;
+    }
+    .first nav .logo{
+          width: 14% !important;
+    }
+    .first nav ul li button {
+    padding: 8px 17px !important;
+    letter-spacing: 0 !important;
+}
+  .first nav ul li a{
+    font-size: 15px !important;
+  }
+
+  /* .first .caption p:last-of-type{
+    width: 69% !important;
+  } */
+  /* End First Section */
+  /* About */
+  .about .img {
+      width: 100% !important;
+
+  }
+  .about .right {
+    width: 100% !important;
+}
+.about .img img:first-of-type{
+  width: 100%;
+}
+.about .img img:last-of-type{
+      left: 302px !important;
+}
+/*  Third Section */
+
+.third .left{
+  width: 100% !important;
+}
+.third .right{
+  width: 100% !important;
+}
+/* Trainer */
+.expert .trainer{
+  width:48% !important
+
+}
+.expert .trainer:nth-of-type(3){
+  margin-top: 200px !important;
+}
+.expert {
+    padding: 30px 0 96px !important;
+
+    height: auto !important;
+}
+/*Get Training*/
+.get .left h2{
+      font-size: 27px;
+}
+/* MEMBERSHIP*/
+.MEMBERSHIP .plans{
+    width: 98% !important;
+    margin-bottom: 54px;
+
+  }
+  /*Register Now*/
+  .register .left{
+    width: 100% !important;
+    margin-bottom: 29px;
+    height: auto !important;
+  }
+  .register .right {
+      width: 100% !important;
+          height: 741px !important;
+
+  }
+  .register .left .form{
+    width: 100% !important
+  }
+  .register .left .form input{
+    width: 100%;
+  }
+  /*LATEST BLOG*/
+    .part{
+      width: 47% !important;
+    }
+/*NEW MEMBER*/
+  .NEW .right,.NEW .left{
+    width: 100% !important;
+  }
+  /* Footer */
+        .footer{
+            height: 440px !important;
+          }
+
+          .footer .imge_footer .right,.footer .imge_footer .left {
+            width: 100% !important;
+            text-align: center;
+        }
+        .footer .imge_footer .left h2{
+          font-size: 18px !important;
+          margin-bottom: 0px !important;
+          margin-top: 17px !important;
+        }
+            .footer .imge_footer .right .form{
+          position: relative;
+          top: 13px;
+        }
+        .footer .imge_footer .right .form input {
+        margin-top: -21px !important;
+        margin-left: -23px !important;
+        }
+      .footer .imge_footer .right .form .icon{
+          top: -14px !important;
+        right: 179px !important;
+      }
+      .footer .final .info:first-of-type {
+          width: 100% !important;
+      }
+      .footer .final .info {
+          width: 41.5% !important;
+      }
+      .footer .final .info:last-of-type {
+        margin-top: 4px;
+    }
+    .footer .row p {
+      font-size: 14px !important;
+  }
+  .footer .imge_footer {
+    width: 84% !important;
+    height: 165px !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+    .footer .final .info:last-of-type ul li{
+          width: 18% !important;
+          height: 18% !important;
+          margin: 2px;
+    }
+    .footer .final .info:last-of-type ul li svg{
+      font-size: 19px !important;
+    }
+
+  }
+
+}
+
+/*  for Small laptob(md) Screens  */
+@media(min-width:992px){
+  @media(max-width:1199px){
+    .container{
+      width: 970px;
+    }
+      /* Start First Section */
+    .first nav .logo{
+          width: 15% !important;
+    }
+    .first nav ul{
+          width: 85% !important;
+    }
+    .first nav ul li a{
+      padding: 8px !important;
+      font-size: 19px !important
+    }
+      /* End First Section */
+
+      /* About */
+    .about .img img:first-of-type {
+      margin-top: 35px;
+      height: 302px !important;
+    }
+    /*trainers*/
+    .expert .trainer .title{
+      top: 236px !important;
+    }
+
+    /*Register Now*/
+    .register .left{
+      width: 70% !important;
+    }
+    .register .right {
+        width: 30% !important;
+        height: 502px;
+
+    }
+    /* footer */
+
+.footer .imge_footer .right .form .icon {
+    top: 31px !important;
+    right: 93px !important;
+}
+.footer .final .info:first-of-type {
+    width: 69% !important;
+}
+.footer .final .info {
+    width: 27.5% !important;
+}
+.footer {
+    padding-bottom: 127px !important;
+  }
+  .footer .final .info:last-of-type {
+    position: relative;
+    margin-left: -213px;
+  }
+
+    }
+
+}
+
+/*  for laptob(lg) Screens  */
+@media(min-width:1200px){
+  .container{
+    width: 1170px;
+  }
+}
+
+@media(max-width:1200px){
+  .TIMETABLE .table {
+    overflow-x: scroll;
+}
+  .TIMETABLE .table table{
+width: 100%;
+height: 100%;
+}
+}
+@media(min-width:991px){
+  .first .list{
+    display: none !important;
+  }
+}
+@media(max-width:990px){
+  .first .caption h2{
+    font-size: 2em !important;
+  }
+  .first{
+    height: auto !important;
+    padding-bottom: 220px !important;
+  }
+}

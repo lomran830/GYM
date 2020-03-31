@@ -1,0 +1,50 @@
+$floatLeft:left;
+.gallery_new{
+  padding: 43px 0;
+  ul{
+    li{
+      display: inline-block;
+      font-weight: bold;
+      font-size: 16px;
+      font-family: sans-serif;
+      padding: 20px;
+      text-align: center;
+      color: #111;
+      cursor: pointer;
+      &.active{
+        color: #f15d44;
+      }
+    }
+  }
+.row{
+  width: 100%;
+  display: block;
+  .img{
+    width: 31.3333%;
+    float: $floatLeft;
+    height: 500px;
+    margin: 1%;
+    @media(min-width:992px){
+      @media(max-width:1199px){
+
+        height: 422px !important;
+      }
+    }
+    @media(min-width:768px){
+      @media(max-width:991px){
+        height: 322px !important;
+      }
+    }
+    @media(max-width:767px){
+      width: 100% !important;
+    }
+    img{
+      width:100%;
+      height: 100%;
+    }
+
+  }
+
+}
+
+}

@@ -1,0 +1,124 @@
+body {
+  height: 3000px; }
+
+.register {
+  background: #fff;
+  margin-top: 0;
+  padding-top: 87px;
+  padding-bottom: 42px; }
+@media (min-width: 768px) and (max-width: 991px) {
+  .register {
+    padding-bottom: 0px !important;
+    margin-bottom: -82px !important; } }
+
+  @media (max-width: 767px) {
+    .register {
+      padding-bottom: 0px !important;
+      margin-bottom: -82px !important; } }
+  .register .left {
+    box-shadow: 1px 4px 8px #ccc; }
+  .register .right img {
+    box-shadow: 1px 4px 8px #ccc; }
+
+/*Classes*/
+@media (max-width: 767px) {
+  .classes .small {
+    margin-top: 0px !important; } }
+
+/* CLASS TIMETABLE */
+.TIMETABLE {
+  padding: 10px 0 47px; }
+  .TIMETABLE h2 {
+    font-family: sans-serif;
+    font-size: 28px;
+    color: #333; }
+  .TIMETABLE ul {
+    margin-top: 59px; }
+    .TIMETABLE ul li {
+      cursor: pointer;
+      color: #111111;
+      font-weight: bold;
+      font-family: sans-serif;
+      font-size: 17px;
+      display: inline-block;
+      padding: 10px;
+      transition: all .3s ease-in-out; }
+      .TIMETABLE ul li.active {
+        color: #f15d44; }
+      .TIMETABLE ul li:hover {
+        color: #f15d44; }
+      @media (max-width: 768px) {
+        .TIMETABLE ul li {
+          font-size: 14px !important;
+          padding: 6px !important; } }
+  .TIMETABLE .table {
+    width: 100%;
+    height: 100%; }
+    .TIMETABLE .table table {
+      border-color: #ccc;
+      margin-top: 53px;
+      margin-left: 3px; }
+      .TIMETABLE .table table thead {
+        background: #e1e1e1; }
+        .TIMETABLE .table table thead tr {
+          height: 73px; }
+          .TIMETABLE .table table thead tr th {
+            border: none;
+            padding: 21px;
+            font-family: sans-serif;
+            font-size: 18px;
+            color: #111;
+            display: inline;
+            line-height: 73px; }
+            .TIMETABLE .table table thead tr th:first-of-type {
+              padding: 21px 50px; }
+            .TIMETABLE .table table thead tr th.left {
+              position: relative;
+              left: 23px; }
+      .TIMETABLE .table table tbody tr {
+        display: block;
+        border-bottom: 1px solid #ccc; }
+        .TIMETABLE .table table tbody tr .first_table {
+          border-left: 1px solid #fff;
+          background: none; }
+        .TIMETABLE .table table tbody tr:last-of-type {
+          border-bottom: 1px solid transparent; }
+        .TIMETABLE .table table tbody tr td {
+          cursor: default;
+          font-family: sans-serif;
+          font-size: 19px;
+          font-weight: bold;
+          width: 126px;
+          height: 103px;
+          border: #fff;
+          border-right: 1px solid #ccc; }
+          .TIMETABLE .table table tbody tr td.border {
+            border-right: 1px solid transparent; }
+          .TIMETABLE .table table tbody tr td.hover:hover {
+            cursor: pointer;
+            background: linear-gradient(to right, #eb3c5a 0%, #f67831 100%), linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
+            color: #fff; }
+            .TIMETABLE .table table tbody tr td.hover:hover span, .TIMETABLE .table table tbody tr td.hover:hover h3, .TIMETABLE .table table tbody tr td.hover:hover p {
+              color: #fff; }
+          .TIMETABLE .table table tbody tr td.activat:hover {
+            cursor: pointer;
+            background: linear-gradient(to right, #eb3c5a 0%, #f67831 100%), linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
+            color: #fff; }
+            .TIMETABLE .table table tbody tr td.activat:hover span, .TIMETABLE .table table tbody tr td.activat:hover h3, .TIMETABLE .table table tbody tr td.activat:hover p {
+              color: #fff; }
+          .TIMETABLE .table table tbody tr td span {
+            font-size: 16px;
+            color: #f15d44;
+            position: relative;
+            top: 13px; }
+          .TIMETABLE .table table tbody tr td h3 {
+            font-size: 16px;
+            color: #111; }
+          .TIMETABLE .table table tbody tr td p {
+            font-size: 16px;
+            font-weight: 200;
+            color: #6b6b6b;
+            position: relative;
+            top: -10px; }
+
+/*# sourceMappingURL=classes_style.css.map */

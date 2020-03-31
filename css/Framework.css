@@ -1,0 +1,45 @@
+.container{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+
+.list-unstyled{
+  list-style: none;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.clear{
+  clear: both;
+}
+
+.visible-xs,
+.visible-sm{
+  display: none;
+}
+
+button.btn{
+    font-family: sans-serif;
+    padding: 12px 36px;
+    background: linear-gradient(to right, #eb3c5a 0%, #f67831 100%), linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: 0;
+}
+button.primary{
+  outline: 0;
+  width: 100%;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 28px 10px;
+  background: linear-gradient(to right, #eb3c5a 0%, #f67831 100%), linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
+  border: 1px solid #e85d39;
+  color: #fff;
+  position: relative;
+
+}
