@@ -115,12 +115,15 @@
     </div>
     <div class="right">
       <h2>LEAVE A COMMENT</h2>
-      <form action="index.html" method="post">
-        <input type="text" name="name" value="" placeholder="Your Name">
-        <input type="email" name="email" value="" placeholder="Your Email">
-        <textarea name="name" rows="8" cols="90" placeholder="Your Messages"></textarea>
-        <button type="button" name="button" class="btn">SEND MESSAGE</button>
-      </form>
+      <div id="message">
+
+      </div>
+          <form action="index.html"  onsubmit="return validation()">
+        <input type="text" name="name" value="" placeholder="Your Name" id="user1">
+        <input type="email" name="email" value="" placeholder="Your Email" id="email1">
+        <textarea name="name" rows="8" cols="90" placeholder="Your Messages" id="opinion"></textarea>
+        <button type="submit" name="button" class="btn">SEND MESSAGE</button>
+        </form>
     </div>
     <div class="clear">
     </div>
@@ -168,15 +171,55 @@
       </div>
   <div class="info">
     <ul class="list-unstyled">
-      <li><i class="fab fa-facebook-f"></i></li>
-      <li><i class="fab fa-instagram"></i></li>
-      <li><i class="fab fa-twitter"></i></li>
-      <li><i class="fab fa-pinterest"></i></li>
+      <li><a href="https://www.facebook.com/lolo.omran.338"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="https://www.instagram.com/lolo.omran.338/"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://twitter.com/Loloomran8"><i class="fab fa-twitter"></i></a></li>
+      <li><a href=""><i class="fab fa-pinterest"></i></a></li>
     </ul>
   </div>
 </div>
   </div>
 </div>
 <script src="js/plugin.js"></script>
+<script type="text/javascript">
+function validation(){
+  var firstName  =  document.getElementById('user1').value,
+      email      =  document.getElementById('email1').value,
+      opinionmessage      =  document.getElementById('opinion').value,
+      error      =  document.getElementById('message'),
+      text;
+
+      if(firstName.trim() == "" &&  email.trim() == "" &&  opinionmessage.trim() == ""){
+        text = "Please Validate Form";
+        error.innerHTML = text;
+        return false;
+      }
+      if(firstName.trim() == "" || firstName.length < 3){
+        text  = "Please Enter Vlidate Name";
+        error.innerHTML = text;
+        return false;
+
+      }
+      if(email.trim() == "" || email.indexOf("@") == -1 || email.indexOf(".") == -1){
+        text  = "Please Enter Vlidate Mail";
+        error.innerHTML = text;
+        return false;
+
+      }
+      if( opinionmessage.trim() == ""){
+        text  = "Please Enter Message";
+        error.innerHTML = text;
+        return false;
+
+      }
+      if( opinionmessage.length < 10){
+        text  = "Please Enter Message More Than That";
+        error.innerHTML = text;
+        return false;
+      }
+
+      return true;
+}
+</script>
 </body>
 </html>

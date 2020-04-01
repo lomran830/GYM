@@ -68,6 +68,14 @@
       font-size: 26px;
       text-align: left;
       margin-left: 49px; }
+    .contact .right #message {
+      background: #db34349e;
+      width: 100%;
+      font-family: monospace;
+      letter-spacing: 1.4px;
+      border-radius: 3px;
+      color: #ffffff;
+      text-align: center; }
     .contact .right form input {
       margin-top: 28px;
       font-family: sans-serif;

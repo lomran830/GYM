@@ -434,11 +434,14 @@ body{
         li{
           display: inline-block;
           padding: 10px;
-          svg{
-            font-size: 22px;
-            cursor: pointer;
-            &:hover{
-              color: #e85d39;
+          a{
+            color: #111;
+            svg{
+              font-size: 22px;
+              cursor: pointer;
+              &:hover{
+                color: #e85d39;
+              }
             }
           }
         }
@@ -617,6 +620,17 @@ span{
       letter-spacing: 2px;
       margin-bottom: 63px;
     }
+    #message{
+      background: #db34349e;
+      width: 100%;
+      margin-top: -41px;
+      font-family: monospace;
+      letter-spacing: 1.4px;
+      border-radius: 3px;
+      color: #e7e3e3;
+      color: #ffffff;
+      text-align: center;
+    }
     .form{
       width: (100% / 2);
       float: $floatLeft;
@@ -629,14 +643,17 @@ span{
       }
       input{
         margin-bottom: 16px;
-        padding: 11px 48px;
+        padding: 11px 48px 11px 12px;
         border: 1px solid #ebebeb;
         outline: 0;
+        color: #000000a6;
+        font-family: cursive;
       }
     }
     button{
       padding: 20px 10px;
       margin-top: 30px;
+      cursor: pointer;
     }
   }
   .right{
@@ -870,10 +887,13 @@ height: 401px;
           &:hover{
             background: linear-gradient(to right, #eb3c5a 0%, #f67831 100%), linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
           }
-          svg{
-            font-size: 18px;
-            margin: 9px;
+          a{
+            color: #fff;
+            svg{
+              font-size: 18px;
+              margin: 9px;
 
+            }
           }
         }
       }

@@ -100,4 +100,50 @@ $(".gallery_new ul li.OTHER").on("click",function(){
   $(".gallery_new .row .img.event,.gallery_new .row .img.coaching,.gallery_new .row .img.fitness").fadeOut();
   $(".gallery_new .row .img.other").fadeIn();
 })
+
 })
+function validate(){
+  var firstName  =  document.getElementById('user').value,
+      lastName   =  document.getElementById('last_name').value,
+      email      =  document.getElementById('email').value,
+      phone      =  document.getElementById('phone').value,
+      error      =  document.getElementById('message'),
+      text;
+
+      if(firstName.trim() == "" && lastName.trim() == "" &&  email.trim() == "" &&  phone.trim() == ""){
+        text = "Please Validate Form";
+        error.innerHTML = text;
+        return false;
+      }
+      if(firstName.trim() == "" || firstName.length < 3){
+        text  = "Please Enter Vlidate First Name";
+        error.innerHTML = text;
+        return false;
+
+      }
+      if(lastName.trim() == "" || lastName.length < 3){
+        text  = "Please Enter Vlidate Last Name";
+        error.innerHTML = text;
+        return false;
+
+      }
+      if(email.trim() == "" || email.indexOf("@") == -1 || email.indexOf(".") == -1){
+        text  = "Please Enter Vlidate Mail";
+        error.innerHTML = text;
+        return false;
+
+      }
+      if( phone.trim() == "" || isNaN(phone)){
+        text  = "Please Enter Vlidate Phone Number";
+        error.innerHTML = text;
+        return false;
+
+      }
+      if( phone.length > 15){
+        text  = "This Number Is Too Much";
+        error.innerHTML = text;
+        return false;
+
+      }
+      return true;
+}

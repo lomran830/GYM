@@ -335,11 +335,13 @@ body {
       .expert .trainer .title ul li {
         display: inline-block;
         padding: 10px; }
-        .expert .trainer .title ul li svg {
-          font-size: 22px;
-          cursor: pointer; }
-          .expert .trainer .title ul li svg:hover {
-            color: #e85d39; }
+        .expert .trainer .title ul li a {
+          color: #111; }
+          .expert .trainer .title ul li a svg {
+            font-size: 22px;
+            cursor: pointer; }
+            .expert .trainer .title ul li a svg:hover {
+              color: #e85d39; }
       .expert .trainer .title span {
         font-family: sans-serif;
         color: #e85d39;
@@ -479,6 +481,16 @@ body {
       font-family: sans-serif;
       letter-spacing: 2px;
       margin-bottom: 63px; }
+    .register .left #message {
+      background: #db34349e;
+      width: 100%;
+      margin-top: -41px;
+      font-family: monospace;
+      letter-spacing: 1.4px;
+      border-radius: 3px;
+      color: #e7e3e3;
+      color: #ffffff;
+      text-align: center; }
     .register .left .form {
       width: 50%;
       float: left;
@@ -490,12 +502,15 @@ body {
         font-family: sans-serif; }
       .register .left .form input {
         margin-bottom: 16px;
-        padding: 11px 48px;
+        padding: 11px 48px 11px 12px;
         border: 1px solid #ebebeb;
-        outline: 0; }
+        outline: 0;
+        color: #000000a6;
+        font-family: cursive; }
     .register .left button {
       padding: 20px 10px;
-      margin-top: 30px; }
+      margin-top: 30px;
+      cursor: pointer; }
   .register .right {
     width: 40%;
     float: left; }
@@ -684,9 +699,11 @@ body {
         text-align: center; }
         .footer .final .info:last-of-type ul li:hover {
           background: linear-gradient(to right, #eb3c5a 0%, #f67831 100%), linear-gradient(to right, #eb3c5a 0%, #f67831 100%); }
-        .footer .final .info:last-of-type ul li svg {
-          font-size: 18px;
-          margin: 9px; }
+        .footer .final .info:last-of-type ul li a {
+          color: #fff; }
+          .footer .final .info:last-of-type ul li a svg {
+            font-size: 18px;
+            margin: 9px; }
     .footer .final .info p {
       color: #fff;
       font-family: sans-serif;
